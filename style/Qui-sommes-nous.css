@@ -1,0 +1,165 @@
+#titre {
+position: relative;
+top: 200px;
+left: 500px;
+width: 538px;
+height: 76px;
+
+/* UI Properties */
+
+text-align: center;
+font: normal normal bold 56px/66px Noto Sans;
+letter-spacing: 0px;
+color: #3C3C3C;
+opacity: 1;
+}
+
+#notre-projet {
+position: relative;
+top: 600px;
+width: 500px;
+height: 55px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal bold 40px/50px Noto Sans;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+
+#notre-projet h1 {
+    position: relative;
+    left: 600px;
+}
+
+#notre-projet p {
+    /* Layout Properties */
+position: relative;
+left: 200px;
+width: 1041px;
+height: 126px;
+
+/* UI Properties */
+
+text-align: center;
+font: normal 16px/26px Noto Sans;
+letter-spacing: 0px;
+color: #737373;
+opacity: 1;
+}
+
+
+#équipe {
+    /* Layout Properties */
+position: relative;
+top: 1000px;
+left: 163px;
+width: 1041px;
+height: 115px;
+
+/* UI Properties */
+
+opacity: 1;
+}
+
+#équipe h1 {
+    /* Layout Properties */
+position: relative;
+left: 598px;
+width: 172px;
+height: 55px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal bold 40px/50px Noto Sans;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+
+#guillaume {
+position: absolute;
+left: 300px;
+border-radius: 50%;
+width: 250px;
+height: 250px;
+}
+
+#guillaume_name {
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    font: normal normal bold 30px/50px Noto Sans;
+    color: #80C5DA;
+}
+
+#guillaume_role {
+    position: absolute;
+    top: 380px;
+    left: 350px;
+}
+
+#salome {
+position: absolute;
+left: 800px;
+border-radius: 50%;
+width: 250px;
+height: 250px;
+}
+
+#mellisa_p {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    border-radius: 50%;
+    width: 250px;
+height: 250px;
+}
+
+#juliette {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    border-radius: 50%;
+    width: 250px;
+height: 250px;
+}
+
+#mellisa_b {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    border-radius: 50%;
+    width: 250px;
+height: 250px;
+}
+
+#johann {
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    border-radius: 50%;
+    width: 250px;
+height: 250px;
+}
+
+#maella {
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    border-radius: 50%;
+    width: 250px;
+height: 250px;
+}
+
+#rémi {
+    position: absolute;
+    top: 1000px;
+    left: 900px;
+    border-radius: 50%;
+    width: 250px;
+height: 250px;
+}
