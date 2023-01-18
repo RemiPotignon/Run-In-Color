@@ -44,6 +44,11 @@
     text-decoration: none;
     font-size: 13px;
   }
+
+  a.active, a:hover{
+    transition: .5s;
+    background-color: #f44336;
+  }
   
   .nav-links ul li::after{
     content: '';
@@ -58,3 +63,16 @@
   .nav-links ul li:hover::after{
     width: 100%;
   }
+
+  .checkbtn {
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+  }
+
+  #check{
+    display: none;
+  }
+
+  
