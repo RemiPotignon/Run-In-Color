@@ -1,0 +1,32 @@
+#titre {
+position: absolute;
+top: 342px;
+left: 529px;
+width: 308px;
+height: 76px;
+
+/* UI Properties */
+
+text-align: center;
+font: normal normal bold 56px/66px Noto Sans;
+letter-spacing: 0px;
+color: #3C3C3C;
+opacity: 1;
+}
+
+#blabla_concept {
+    /* Layout Properties */
+position: absolute;
+top: 437px;
+left: 403px;
+width: 600px;
+height: 95px;
+
+/* UI Properties */
+
+text-align: center;
+font: normal normal 600 20px/41px Noto Sans;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
