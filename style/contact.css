@@ -1,0 +1,87 @@
+#prenom {
+    /* Layout Properties */
+position: absolute;
+top: 511px;
+left: 261px;
+width: 410px;
+height: 48px;
+
+/* UI Properties */
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #3E3E3E;
+opacity: 1;
+}
+
+#nom {
+position: absolute;
+ top: 511px;
+left: 696px;
+width: 410px;
+height: 48px;
+
+/* UI Properties */
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #3E3E3E;
+opacity: 1;
+}
+
+#email {
+    /* Layout Properties */
+position: absolute;
+top: 575px;
+left: 261px;
+width: 845px;
+height: 48px;
+
+/* UI Properties */
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #3E3E3E;
+opacity: 1;
+}
+
+#objet {
+    /* Layout Properties */
+position: absolute;
+top: 639px;
+left: 261px;
+width: 845px;
+height: 48px;
+
+/* UI Properties */
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #3E3E3E;
+opacity: 1;
+}
+
+#message {
+    /* Layout Properties */
+position: absolute;
+top: 703px;
+left: 261px;
+width: 845px;
+height: 205px;
+
+/* UI Properties */
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 2px solid #3E3E3E;
+opacity: 1;
+}
+
+#envoyer {
+   /* Layout Properties */
+position: absolute;
+top: 1058px;
+left: 518px;
+width: 331px;
+height: 49px;
+
+/* UI Properties */
+
+background: #3C3C3C 0% 0% no-repeat padding-box;
+opacity: 1; 
+}
