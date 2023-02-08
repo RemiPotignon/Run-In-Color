@@ -10,27 +10,15 @@
     <script src="https://kit.fontawesome.com/f7f81b2303.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        
-      
-        <a href="home.html"><img id="logo" src="LOGO COMPLET.png" alt=""></a>
-        <div id="rectangle-haut"></div>
-        
-        <div class ="nav-links">  
-            <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-            <ul>
-                <li><a class="active" href="Qui-sommes-nous.html">QUI SOMMES NOUS ?</a></li>
-                <li><a href="concept.html">LE CONCEPT</a></li>
-                <li><a href="association.html">L'ASSOCIATION</a></li>
-                <li><a href="billeterie.html">BILLETERIRE</a></li>
-                <li><a href="FAQ.html">FAQ</a></li>
-                <li><a href="contact.html">CONTACTEZ NOUS !</a></li>
-            </ul>
-        </div>
-    </nav>
+    <script
+src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+</script>
+<script>
+    $(function(){
+        $('#header').load('header.html')
+    }) 
+</script>
+    <div id="header"></div>
     <h1 id="titre">Qui-sommes-nous ?</h1>
     
     <div id="notre-projet">

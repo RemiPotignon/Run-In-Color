@@ -7,27 +7,20 @@
     <title>Color-run</title>
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/header.css">
+    <script
+src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous">
+</script>
+<script>
+    $(function(){
+        $('#header').load('header.html')
+    }) 
+</script>
     
 </head>
 
 <body>
     <section>
-        <nav>
-            <img id="logo" src="LOGO COMPLET.png" alt="">
-            <div id="rectangle-haut">
-                
-            </div><div class ="nav-links">
-                <ul>
-                    
-                    <li><a href="Qui-sommes-nous.html">QUI SOMMES NOUS ?</a></li>
-                    <li><a href="concept.html">LE CONCEPT</a></li>
-                    <li><a href="association.html">L'ASSOCIATION</a></li>
-                    <li><a href="billeterie.html">BILLETERIRE</a></li>
-                    <li><a href="FAQ.html">FAQ</a></li>
-                    <li><a href="contact.html">CONTACTEZ NOUS !</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div id="header"></div>
 
     <div class="text-box">
         <h1>Run In Color</h1>
