@@ -141,3 +141,6 @@ nav{
   background-color: #f44336;
 }
 
+body {
+  overflow-x: hidden;
+}

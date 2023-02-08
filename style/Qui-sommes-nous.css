@@ -1,9 +1,13 @@
+body {
+overflow-x: hidden;
+}
+
 #titre {
 position: relative;
-top: 200px;
+top: 40%;
 left: 500px;
-width: 538px;
-height: 76px;
+width: 500px;
+height: 55px;
 
 /* UI Properties */
 
@@ -11,6 +15,21 @@ text-align: center;
 font: normal normal bold 56px/66px Noto Sans;
 letter-spacing: 0px;
 color: #3C3C3C;
+opacity: 1;
+}
+
+#blabla {
+position: absolute;
+left: 500px;
+width: 500px;
+height: 126px;
+
+/* UI Properties */
+
+text-align: center;
+font: normal normal medium 16px/26px Noto Sans;
+letter-spacing: 0px;
+color: #737373;
 opacity: 1;
 }
 

@@ -19,21 +19,21 @@ src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjg
 </script>
 <script>
     $(function(){
-        $('#footer').load('footer.html')
+        $('#general_footer').load('footer.html')
     }) 
 </script>
     <div id="header"></div>
     <h1>Contactez-nous !</h1>
 
-    <form action="">
+    <form id="form" action="" >
         <input id="prenom" type="text" placeholder="Prénom">
         <input id="nom" type="text" placeholder="Nom">
-        <input id="email" type="text" placeholder="Adresee email">
+        <input id="email" type="text" placeholder="Adresse email">
         <input id="objet" type="text" placeholder="Objet">
-        <input id="message" type="text"placeholder="Message">
+        <input id="message" type="text" placeholder="Message">
 
         <button id="envoyer">Envoyer</button>
     </form>
-    <div id="footer"></div>
+    <div id="general_footer"></div>
 </body>
 </html>

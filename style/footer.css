@@ -1,4 +1,8 @@
-
+#general_footer {
+    position: absolute;
+   
+    top: 100%;
+}
 
 #nom_asso {
     /* Layout Properties */
@@ -156,7 +160,7 @@ opacity: 1;
 position: absolute;
 top: 2446px;
 left: 1000px;
-width: 2000px;
+width: 200px;
 height: 24px;
 
 /* UI Properties */
