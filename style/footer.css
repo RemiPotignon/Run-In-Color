@@ -1,0 +1,170 @@
+
+
+#nom_asso {
+    /* Layout Properties */
+position: absolute;
+top: 2291px;
+left: 584px;
+width: 250px;
+height: 43px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal bold 32px/42px Noto Sans;
+letter-spacing: 0px;
+color: #3D3D3D;
+opacity: 1;
+}
+
+#logo_footer {
+    /* Layout Properties */
+position: absolute;
+top: 2207px;
+left: 600px;
+width: 166px;
+height: 92px;
+}
+
+#texte {
+    /* Layout Properties */
+position: absolute;
+top: 2345px;
+left: 398px;
+width: 571px;
+height: 74px;
+
+/* UI Properties */
+
+text-align: center;
+font: normal normal medium 16px/26px Noto Sans;
+letter-spacing: 0px;
+color: #737373;
+opacity: 1;
+}
+
+#qui_sommes_nous {
+    /* Layout Properties */
+position: absolute;
+top: 2446px;
+left: 472px;
+width: 200px;
+height: 22px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal 600 16px/22px Source Sans Pro;
+letter-spacing: 0.64px;
+color: #202020;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#accueil {
+    /* Layout Properties */
+position: absolute;
+top: 2446px;
+left: 254px;
+width: 66px;
+height: 22px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal 600 16px/22px Source Sans Pro;
+letter-spacing: 0.64px;
+color: #202020;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#concept {
+    /* Layout Properties */
+position: absolute;
+top: 2446px;
+left: 348px;
+width: 120px;
+height: 22px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal 600 16px/22px Source Sans Pro;
+letter-spacing: 0.64px;
+color: #202020;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#association {
+    /* Layout Properties */
+position: absolute;
+top: 2446px;
+left: 670px;
+width: 111px;
+height: 22px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal 600 16px/22px Source Sans Pro;
+letter-spacing: 0.64px;
+color: #202020;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#billeterie {
+    /* Layout Properties */
+position: absolute;
+top: 2446px;
+left: 820px;
+width: 94px;
+height: 22px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal 600 16px/22px Source Sans Pro;
+letter-spacing: 0.64px;
+color: #202020;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#faq {
+    /* Layout Properties */
+position: absolute;
+top: 2447px;
+left: 950px;
+width: 28px;
+height: 22px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal 600 16px/22px Source Sans Pro;
+letter-spacing: 0.64px;
+color: #202020;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#contact {
+    /* Layout Properties */
+position: absolute;
+top: 2446px;
+left: 1000px;
+width: 2000px;
+height: 24px;
+
+/* UI Properties */
+
+text-align: left;
+font: normal normal 600 17px/24px Source Sans Pro;
+letter-spacing: 0.68px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
