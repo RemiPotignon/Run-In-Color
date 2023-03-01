@@ -1,7 +1,7 @@
 #titre {
 position: absolute;
-
-left: 500px;
+top: 300px;
+left: 100px;
 width: 308px;
 height: 76px;
 
@@ -17,9 +17,9 @@ opacity: 1;
 #blabla_concept {
     /* Layout Properties */
 position: absolute;
-top: 35%;
-left: 400px;
-width: 500px;
+top: 400px;
+left: 0px;
+width: 650px;
 height: 95px;
 
 /* UI Properties */
@@ -29,6 +29,14 @@ font: normal normal 600 20px/41px Noto Sans;
 letter-spacing: 0px;
 color: #3D3D3D;
 opacity: 1;
+}
+
+#image_1 {
+    position: absolute;
+    top: 400px;
+    width: 800px;
+    left: 700px;
+    height: 400px;
 }
 
 body {
