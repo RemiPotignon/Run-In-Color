@@ -3,8 +3,8 @@ overflow-x: hidden;
 }
 
 #titre {
-position: relative;
-top: 40%;
+position: absolute;
+top: 300px;
 left: 500px;
 width: 500px;
 height: 55px;
@@ -21,6 +21,7 @@ opacity: 1;
 #blabla {
 position: absolute;
 left: 500px;
+top: 400px;
 width: 500px;
 height: 126px;
 
