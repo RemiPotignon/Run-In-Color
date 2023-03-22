@@ -11,6 +11,18 @@
 h1{
 color: black;
 }
+#photo_header {
+    
+  position: absolute;
+  
+  z-index: -5;
+
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
 
 nav{
   display: flex;
@@ -44,21 +56,84 @@ nav{
 }
 
 .text-box{
-  width: 90%;
-  color: black;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+position: absolute;
+top: 250px;
+left: 300px;
+width: 744px;
+height: 189px;
 }
 .text-box h1{
-  font-size: 62px;
+
+text-align: center;
+font: normal normal normal 100px Bebas Neue;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
 }
 .text-box p{
   margin: 10px 0 40px;
   font-size: 14px;
   color: black;
+}
+
+.le-concept{
+  position: absolute;
+  top: 1300px;
+  height: 500px;
+  width: 100%;
+}
+
+.le-concept h1{
+ 
+
+/* UI Properties */
+
+
+text-align: left;
+font: normal normal normal 50px/58px Bebas Neue;
+letter-spacing: 0px;
+color: #E5147E;
+opacity: 1;
+}
+
+.le-concept p{
+  width: 536px;
+height: 210px;
+}
+
+#concept1 {
+  position: absolute;
+  top: 100px;
+  left: 800px;
+width: 200px;
+height: 100px;
+border-radius: 25%;
+}
+
+#concept2 {
+  position: absolute;
+  top: 100px;
+  left: 1050px;
+width: 200px;
+height: 100px;
+border-radius: 25%;
+}
+
+#concept3 {
+  position: absolute;
+  top: 250px;
+  left: 830px;
+width: 400px;
+height: 100px;
+border-radius: 25%;
+}
+
+#en-savoir{
+  position: absolute;
+ top: 250px;
+width: 229px;
+height: 30px;
+background-color: #E5147E;
 }
 
 #lieux{
