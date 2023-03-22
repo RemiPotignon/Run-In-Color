@@ -1,3 +1,10 @@
+#form {
+    position: absolute;
+    top: 15%;
+    height: 100%;
+    width: 100%;
+}
+
 #prenom {
     /* Layout Properties */
 position: absolute;

@@ -17,20 +17,24 @@
   }
 
   #photo_header {
-    height: 300px;
-    width: 100%;
+    
     position: fixed;
+    
+    z-index: -5;
+
     top: 0px;
     left: 0px;
-    z-index: -5;
+    width: 100%;
+    height: 100%;
   }
   
 #logo_header {
     /* Layout Properties */
 position: fixed;
-left: 0px;
-width: 150px;
-height: 113px;
+top: 59px;
+left: 140px;
+width: 138px;
+height: 104px;
 z-index: 5;
   }
 
@@ -52,8 +56,9 @@ z-index: 5;
   }
   
   .nav-links{
+    position: fixed;
     flex: 1;
-    text-align: right;
+    right: 10vw;
   }
   
   .nav-links ul li{
@@ -64,7 +69,7 @@ z-index: 5;
   }
   
   .nav-links ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 13px;
   }
@@ -96,4 +101,27 @@ z-index: 5;
     display: none;
   }
 
+  #qui-sommes-nous_h:hover{
+    background-color: #E5147E;
+  }
+
+  #le-concept_h:hover{
+    background-color: #F7E618;
+  }
+
+  #association_h:hover{
+    background-color: #67C5DC;
+  }
+
+  #billeterie_h:hover{
+    background-color: #E5147E;;
+  }
+
+  #faq_h:hover{
+    background-color: #F7E618;
+  }
+
+  #contactez-nous_h{
+  background-color: #67C5DC;
+}
   
