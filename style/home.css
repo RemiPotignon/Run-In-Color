@@ -78,8 +78,8 @@ opacity: 1;
 
 .le-concept{
   position: absolute;
-  top: 1300px;
-  height: 500px;
+  top: 900px;
+  height: 600px;
   width: 100%;
 }
 
@@ -134,6 +134,67 @@ border-radius: 25%;
 width: 229px;
 height: 30px;
 background-color: #E5147E;
+}
+
+.qui-sommes-nous{
+  position: absolute;
+  left: 0px;
+  top: 1500px;
+  height: 600px;
+  width: 100%;
+  background: #67C5DC 0% 0% no-repeat padding-box;
+opacity: 0.65;
+}
+
+#button-qui-sommes-nous{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  width: 229px;
+  height: 50px;
+
+/* UI Properties */
+
+color: var(---67c5dc);
+text-align: center;
+font: normal normal 600 25px/36px Montserrat;
+letter-spacing: 0px;
+color: #67C5DC;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.qui-sommes-nous h1{
+  position: absolute;
+  left: 45%;
+}
+
+.qui-sommes-nous p{
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+#photo-qui-sommes-nous{
+  position: absolute;
+  top: 350px;
+left: 35%;
+width: 40%;
+height: 200px;
+
+/* UI Properties */
+
+background: transparent url('img/Placement Area [ASSET:small][SIZE:Default][STATE:DEFAULT].png') 0% 0% no-repeat padding-box;
+border-radius: 250px;
+opacity: 1;
+background-color: gray;
+}
+
+.association {
+  position: absolute;
+  top: 2100px;
+  height: 600px;
+  width: 100%;
 }
 
 #lieux{

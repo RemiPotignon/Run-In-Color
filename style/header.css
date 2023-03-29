@@ -3,6 +3,8 @@
   z-index: 5;
 }
 
+
+
 #rectangle-haut {
     position: fixed;
     top: -8.6640625px;
@@ -20,11 +22,15 @@
 #logo_header {
     /* Layout Properties */
 position: absolute;
-top: 0px;
+display: block;
+text-align: center;
 left: 50px;
-width: 138px;
-height: 104px;
+max-width: 240px;
+width: auto;
+max-height: 80px;
+height: auto;
 z-index: 5;
+
   }
 
 
@@ -45,7 +51,7 @@ z-index: 5;
     background: #1D1D1B 0% 0% no-repeat padding-box;
     opacity: 0.5;
     top: 0px;
-    height: 40px;;
+    height: 2.5vh;
   }
   
   .nav-links{
