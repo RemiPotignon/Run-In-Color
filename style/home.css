@@ -134,6 +134,7 @@ border-radius: 25%;
 width: 229px;
 height: 30px;
 background-color: #E5147E;
+border-radius: 30px;
 }
 
 .qui-sommes-nous{
@@ -149,9 +150,10 @@ opacity: 0.65;
 #button-qui-sommes-nous{
   position: absolute;
   top: 200px;
-  left: 50%;
+  left: 45%;
   width: 229px;
   height: 50px;
+  border-radius: 30px;
 
 /* UI Properties */
 
@@ -195,6 +197,62 @@ background-color: gray;
   top: 2100px;
   height: 600px;
   width: 100%;
+  
+  left: 0;
+}
+
+.association h1{
+  /* Layout Properties */
+position: absolute;
+top: 200px;
+left: 200px;
+width: 536px;
+height: 119px;
+
+/* UI Properties */
+
+color: var(---e5147e);
+text-align: left;
+font: normal normal normal 50px/58px Bebas Neue;
+letter-spacing: 0px;
+color: #E5147E;
+opacity: 1;
+text-transform: uppercase;
+}
+
+.association p{
+  /* Layout Properties */
+position: absolute;
+top: 300px;
+left: 200px;
+width: 420px;
+height: 138px;
+
+
+/* UI Properties */
+
+color: var(---1d1d1b);
+text-align: left;
+font: normal normal normal 20px/36px Montserrat;
+letter-spacing: 0px;
+color: #1D1D1B;
+opacity: 1;
+}
+
+#btn-association{
+  position: absolute;
+  top: 500px;
+  left: 200px;
+ width: 229px;
+ height: 30px;
+ background-color: #E5147E;
+ border-radius: 30px;
+}
+
+#logo-reve{
+  position: absolute;
+  top: 500px;
+  left: 70%;
 }
 
 #lieux{

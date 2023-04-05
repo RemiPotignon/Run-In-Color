@@ -21,10 +21,11 @@
   
 #logo_header {
     /* Layout Properties */
-position: absolute;
+position: fixed;
 display: block;
 text-align: center;
 left: 50px;
+top: 0px;
 max-width: 240px;
 width: auto;
 max-height: 80px;
