@@ -249,10 +249,30 @@ opacity: 1;
  border-radius: 30px;
 }
 
+#reve1 {
+  position: absolute;
+  top: 200px;
+  left: 60%;
+  width: 150px;
+height: 150px;
+border-radius: 110px;
+}
+
+#reve2 {
+  position: absolute;
+  top: 200px;
+  left: 75%;
+  width: 150px;
+height: 150px;
+border-radius: 110px;
+}
+
 #logo-reve{
   position: absolute;
-  top: 500px;
-  left: 70%;
+  top: 400px;
+  left: 60%;
+  width: 400px;
+height: 200px;
 }
 
 #lieux{
